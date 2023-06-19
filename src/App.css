@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+:root {
+  --clr: #f6600f;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  position: absolute;
+  top: 30px;
+  left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px;
+  gap: 8px;
+text-transform: uppercase;
+cursor: pointer;
+
+
+
+
+}
+
+
+nav span{
+  margin: 8px;
+  padding: 10px;
+  font-size: large;
+
+  
+}
+
+nav h4:hover{
+  border-left:5px solid red ;
+  height: 30px;
+ 
+
+
+}
+
+                /* Content Style */
+.content{
+  position: relative;
+  top: 30px;
+  left: 350px;
+  width: 70%;
+  border-bottom: 1px solid rgb(149, 149, 149);
+}
+
+.row1{
+  display: flex;
+  
+  justify-content: space-between;
+  margin: 20px;
+  font-size: large;
+
+ 
+}
+
+
+
+
+
+.row2{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+}
+
+.row3{
+  display: flex;
+justify-content: start;
+}
+
+.font{
+  color: var(--clr);
+  height: 20px;
+  width: 40px;
+
+}
+
+.circle{
+  position: absolute;
+  top: 30px;
+  left: 375px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 251, 243);
+  border-radius: 50%;
+  text-shadow:-2px -2px 5px  rgb(182, 182, 181) ;
+  filter: drop-shadow(4px 4px 10px rgb(182, 182, 181));
+  z-index: -1;
+
+
+}
+
+.check{
+
+  accent-color: var(--clr);
+
+
+}
+
+button{
+  color: var(--clr);
+  border: 3px solid var(--clr);
+  background-color: white;
+  padding: 5px 10px;
+  font-size: larger;
+  margin: 10px;
+}
+
+button:hover{
   color: white;
+  background-color:  var(--clr);
+  cursor: pointer;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.show{
+  position: relative;
+  top:-300px;
+  left:-350px;
 }

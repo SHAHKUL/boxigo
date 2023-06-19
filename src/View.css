@@ -1,0 +1,106 @@
+.view {
+    position: relative;
+    top: 330px;
+    left: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    /* background-color: rgb(124, 124, 125); */
+    height: 900px;
+    margin-bottom: 50px;
+}
+
+
+ .view button{
+        color: black;
+        border: 3px solid black;
+        background-color: white;
+        padding: 5px 10px;
+        font-size: larger;
+        margin: 10px;
+      }
+      
+
+      .view button:hover{
+        color: whitesmoke;
+        border: 3px solid black;
+        background-color: black;
+
+      }
+
+
+.view .row1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+    flex-direction: row;
+}
+
+.view .row2{
+    position: relative;
+   margin: 20px;
+}
+
+.view .row2 input{
+    position: relative;
+    top: -20px;
+    left: -20px;
+    border: none;
+    background-color: rgb(242, 237, 237);
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 0 20px 0 20px;
+}
+
+
+
+.view .row3 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.view .row4 {
+    position: relative;
+    top: 30px;
+}
+
+.view .row4 .box1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+.view .row4 .box2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.boxnew{
+    position: relative;
+    top: 30px;
+
+}
+
+
+
+/* ///////////////// inventary //////////////////// */
+
+.inventary{
+    position: relative;
+    top: 530px;
+    width: 60%;
+    border: none;
+   
+}
